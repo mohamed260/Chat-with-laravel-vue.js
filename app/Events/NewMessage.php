@@ -38,6 +38,9 @@ class NewMessage
     }
 
     public function broadcastWith() {
+
+        $this->message->load('fromContact');
+
         return ["message" => $this->message];
     }
 }
