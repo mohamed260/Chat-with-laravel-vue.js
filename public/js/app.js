@@ -44784,9 +44784,7 @@ var render = function() {
           },
           [
             _c("div", { staticClass: "avatar" }, [
-              _c("img", {
-                attrs: { src: contact.profile_image, alt: contact.name }
-              })
+              _c("img", { attrs: { src: contact.profile_image } })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "contact" }, [
